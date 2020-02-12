@@ -19,7 +19,7 @@
 
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="108"
+        android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -30,7 +30,7 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="108"
+        android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -41,7 +41,7 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="108"
+        android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -52,12 +52,12 @@
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="108"
+        android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editText3"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnSubmit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/F31" />
 
@@ -193,7 +193,7 @@
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnSubmit"
         app:layout_constraintEnd_toStartOf="@+id/F31"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/F20"
@@ -209,15 +209,16 @@
         android:textSize="30sp"
         app:layout_constraintTop_toBottomOf="@+id/T21"
         app:layout_constraintEnd_toStartOf="@+id/editText4"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnSubmit"
         app:layout_constraintStart_toEndOf="@+id/F30" />
 
     <Button
         android:id="@+id/btnSubmit"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="145dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
