@@ -7,12 +7,172 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="191dp"
+        android:layout_height="30dp"
+        android:text="Conjunction (AND)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="110dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="108"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="108"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="108"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="108"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/AandBheader"
+        android:layout_width="108dp"
+        android:layout_height="54dp"
+        android:text="A ^ B"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/Aheader"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="A"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/T01"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="T"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/T21"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="T"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/T10"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="T"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/T00"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="T"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/F11"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="F"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/F20"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="F"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/F30"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="F"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <TextView
+        android:id="@+id/F31"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="F"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <TextView
+        android:id="@+id/Bheader"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:text="@android:string/VideoView_error_button"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="125dp"
+        tools:text="B" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
