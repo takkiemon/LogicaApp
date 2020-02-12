@@ -6,13 +6,17 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private var totalCorrectAnswers = 0
-    var toastText = ""
+    private var totalCorrectAnswers: Int = 0
+    var toastText = editText1.text.toString()
+    val answer1 = editText1.text.toString()
+    val answer2 = editText1.text.toString()
+    val answer3 = editText1.text.toString()
+    val answer4 = editText1.text.toString()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        submitBtn.setOnClickListener {
+        btnSubmit.setOnClickListener {
             submitAnswers()
             showToast()
             totalCorrectAnswers = 0
@@ -20,21 +24,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun submitAnswers() {
-        val answer01 = answer1.text.toString()
-        val answer02 = answer2.text.toString()
-        val answer03 = answer3.text.toString()
-        val answer04 = answer4.text.toString()
-
-        if (answer01 == "T") {
+        if (answer1 == "T") {
             totalCorrectAnswers++
         }
-        if (answer02 == "F") {
+        if (answer2 == "F") {
             totalCorrectAnswers++
         }
-        if (answer03 == "F") {
+        if (answer3 == "F") {
             totalCorrectAnswers++
         }
-        if (answer04 == "F") {
+        if (answer4 == "F") {
             totalCorrectAnswers++
         }
     }
