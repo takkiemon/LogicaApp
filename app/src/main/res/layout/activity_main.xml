@@ -12,54 +12,54 @@
         android:layout_height="30dp"
         android:text="Conjunction (AND)"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        //app:layout_constraintEnd_toEndOf="parent"
+        //app:layout_constraintStart_toStartOf="parent"
+        //app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/T01"
-        app:layout_constraintTop_toBottomOf="@+id/AandBheader" />
+        android:inputType="textPersonName" />
+        //app:layout_constraintBottom_toTopOf="@+id/editText2"
+        //app:layout_constraintEnd_toEndOf="parent"
+        //app:layout_constraintStart_toEndOf="@+id/T01"
+        //app:layout_constraintTop_toBottomOf="@+id/AandBheader" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText3"
-        app:layout_constraintTop_toBottomOf="@+id/editText1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/F11" />
+        android:inputType="textPersonName" />
+        //app:layout_constraintBottom_toTopOf="@+id/editText3"
+        //app:layout_constraintTop_toBottomOf="@+id/editText1"
+        //app:layout_constraintEnd_toEndOf="parent"
+        //app:layout_constraintStart_toEndOf="@+id/F11" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/T21"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        android:inputType="textPersonName" />
+        //app:layout_constraintBottom_toTopOf="@+id/editText4"
+        //app:layout_constraintEnd_toEndOf="parent"
+        //app:layout_constraintStart_toEndOf="@+id/T21"
+        //app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="108dp"
         android:layout_height="54dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editText3"
-        app:layout_constraintBottom_toTopOf="@id/btnSubmit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/F31" />
+        android:inputType="textPersonName" />
+        //app:layout_constraintTop_toBottomOf="@+id/editText3"
+        //app:layout_constraintBottom_toTopOf="@id/btnSubmit"
+        //app:layout_constraintEnd_toEndOf="parent"
+        //app:layout_constraintStart_toEndOf="@+id/F31" />
 
     <TextView
         android:id="@+id/AandBheader"
@@ -69,11 +69,11 @@
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editText1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Bheader"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        android:textStyle="bold" />
+        //app:layout_constraintBottom_toTopOf="@+id/editText1"
+        //app:layout_constraintEnd_toEndOf="parent"
+        //app:layout_constraintStart_toEndOf="@+id/Bheader"
+        //app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/Aheader"
@@ -83,11 +83,11 @@
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/T00"
-        app:layout_constraintEnd_toStartOf="@+id/Bheader"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        android:textStyle="bold" />
+        //app:layout_constraintBottom_toTopOf="@+id/T00"
+        //app:layout_constraintEnd_toStartOf="@+id/Bheader"
+        //app:layout_constraintStart_toStartOf="parent"
+        //app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/Bheader"
@@ -97,11 +97,11 @@
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/AandBheader"
-        app:layout_constraintStart_toEndOf="@+id/Aheader"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintBottom_toTopOf="@+id/T01"
+        android:textStyle="bold" />
+        //app:layout_constraintEnd_toStartOf="@+id/AandBheader"
+        //app:layout_constraintStart_toEndOf="@+id/Aheader"
+        //app:layout_constraintTop_toBottomOf="@+id/textView14"
+        //app:layout_constraintBottom_toTopOf="@+id/T01"
         tools:text="B" />
 
     <TextView
@@ -111,11 +111,11 @@
         android:text="T"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Aheader"
-        app:layout_constraintBottom_toTopOf="@+id/T10"
-        app:layout_constraintEnd_toStartOf="@+id/T01" />
+        android:textSize="30sp" />
+        //app:layout_constraintStart_toStartOf="parent"
+        //app:layout_constraintTop_toBottomOf="@+id/Aheader"
+        //app:layout_constraintBottom_toTopOf="@+id/T10"
+        //app:layout_constraintEnd_toStartOf="@+id/T01" />
 
     <TextView
         android:id="@+id/T01"
@@ -124,11 +124,11 @@
         android:text="T"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/F11"
-        app:layout_constraintEnd_toStartOf="@+id/editText1"
-        app:layout_constraintStart_toEndOf="@+id/T00"
-        app:layout_constraintTop_toBottomOf="@+id/Bheader" />
+        android:textSize="30sp" />
+        //app:layout_constraintBottom_toTopOf="@+id/F11"
+        ///app:layout_constraintEnd_toStartOf="@+id/editText1"
+        //app:layout_constraintStart_toEndOf="@+id/T00"
+        //app:layout_constraintTop_toBottomOf="@+id/Bheader" />
 
     <TextView
         android:id="@+id/T10"
@@ -137,12 +137,12 @@
         android:text="T"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/F20"
-        app:layout_constraintEnd_toStartOf="@+id/F11"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/T00" />
+        android:textSize="30sp" />
+        //app:layout_constraintBottom_toTopOf="@+id/F20"
+        //app:layout_constraintEnd_toStartOf="@+id/F11"
+        //app:layout_constraintHorizontal_bias="0.0"
+        //app:layout_constraintStart_toStartOf="parent"
+        //app:layout_constraintTop_toBottomOf="@+id/T00" />
 
     <TextView
         android:id="@+id/F11"
@@ -151,11 +151,11 @@
         android:text="F"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintTop_toBottomOf="@+id/T01"
-        app:layout_constraintStart_toEndOf="@+id/T10"
-        app:layout_constraintEnd_toStartOf="@+id/editText2"
-        app:layout_constraintBottom_toTopOf="@+id/T21" />
+        android:textSize="30sp" />
+        //app:layout_constraintTop_toBottomOf="@+id/T01"
+        //app:layout_constraintStart_toEndOf="@+id/T10"
+        //app:layout_constraintEnd_toStartOf="@+id/editText2"
+        //app:layout_constraintBottom_toTopOf="@+id/T21" />
 
     <TextView
         android:id="@+id/F20"
@@ -164,13 +164,13 @@
         android:text="F"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/F30"
-        app:layout_constraintEnd_toStartOf="@+id/T21"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/T10"
-        app:layout_constraintVertical_bias="1.0" />
+        android:textSize="30sp" />
+        //app:layout_constraintBottom_toTopOf="@+id/F30"
+        //app:layout_constraintEnd_toStartOf="@+id/T21"
+        //app:layout_constraintHorizontal_bias="0.0"
+        //app:layout_constraintStart_toStartOf="parent"
+        //app:layout_constraintTop_toBottomOf="@+id/T10"
+        //app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/T21"
@@ -179,11 +179,11 @@
         android:text="T"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintTop_toBottomOf="@+id/F11"
-        app:layout_constraintStart_toEndOf="@+id/F20"
-        app:layout_constraintEnd_toStartOf="@+id/editText3"
-        app:layout_constraintBottom_toTopOf="@+id/F31" />
+        android:textSize="30sp" />
+        //app:layout_constraintTop_toBottomOf="@+id/F11"
+        //app:layout_constraintStart_toEndOf="@+id/F20"
+        //app:layout_constraintEnd_toStartOf="@+id/editText3"
+        //app:layout_constraintBottom_toTopOf="@+id/F31" />
 
     <TextView
         android:id="@+id/F30"
@@ -192,12 +192,12 @@
         android:text="F"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@id/btnSubmit"
-        app:layout_constraintEnd_toStartOf="@+id/F31"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/F20"
-        app:layout_constraintVertical_bias="0.719" />
+        android:textSize="30sp" />
+        //app:layout_constraintBottom_toTopOf="@id/btnSubmit"
+        //app:layout_constraintEnd_toStartOf="@+id/F31"
+        //app:layout_constraintStart_toStartOf="parent"
+        //app:layout_constraintTop_toBottomOf="@+id/F20"
+        //app:layout_constraintVertical_bias="0.719" />
 
     <TextView
         android:id="@+id/F31"
@@ -206,19 +206,19 @@
         android:text="F"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="30sp"
-        app:layout_constraintTop_toBottomOf="@+id/T21"
-        app:layout_constraintEnd_toStartOf="@+id/editText4"
-        app:layout_constraintBottom_toTopOf="@id/btnSubmit"
-        app:layout_constraintStart_toEndOf="@+id/F30" />
+        android:textSize="30sp" />
+        //app:layout_constraintTop_toBottomOf="@+id/T21"
+        //app:layout_constraintEnd_toStartOf="@+id/editText4"
+        //app:layout_constraintBottom_toTopOf="@id/btnSubmit"
+        //app:layout_constraintStart_toEndOf="@+id/F30" />
 
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Submit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="Submit" />
+        //app:layout_constraintBottom_toBottomOf="parent"
+        //app:layout_constraintEnd_toEndOf="parent"
+        //app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

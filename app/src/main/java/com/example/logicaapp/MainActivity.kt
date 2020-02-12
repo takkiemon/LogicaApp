@@ -6,7 +6,7 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private var totalCorrectAnswers: Int = 0
+    private var totalCorrectAnswers = 0
     var toastText = editText1.text.toString()
     val answer1 = editText1.text.toString()
     val answer2 = editText1.text.toString()
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showToast() {
-        toastText = "The number of correct answers: " + totalCorrectAnswers
-        Toast.makeText(this, toastText, Toast.LENGTH_LONG).show()
+        //toastText = "The number of correct answers: " + totalCorrectAnswers
+        //Toast.makeText(this, toastText, Toast.LENGTH_LONG).show()
     }
 }
