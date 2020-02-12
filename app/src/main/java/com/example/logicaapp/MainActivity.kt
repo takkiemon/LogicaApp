@@ -7,16 +7,12 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private var totalCorrectAnswers = 0
-    var toastText = editText1.text.toString()
-    val answer1 = editText1.text.toString()
-    val answer2 = editText1.text.toString()
-    val answer3 = editText1.text.toString()
-    val answer4 = editText1.text.toString()
+    var toastText = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btnSubmit.setOnClickListener {
+        submitBtn.setOnClickListener {
             submitAnswers()
             showToast()
             totalCorrectAnswers = 0
@@ -24,22 +20,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun submitAnswers() {
-        if (answer1 == "T") {
+        val answer01 = answer1.text.toString()
+        val answer02 = answer2.text.toString()
+        val answer03 = answer3.text.toString()
+        val answer04 = answer4.text.toString()
+
+        if (answer01 == "T") {
             totalCorrectAnswers++
         }
-        if (answer2 == "F") {
+        if (answer02 == "F") {
             totalCorrectAnswers++
         }
-        if (answer3 == "F") {
+        if (answer03 == "F") {
             totalCorrectAnswers++
         }
-        if (answer4 == "F") {
+        if (answer04 == "F") {
             totalCorrectAnswers++
         }
     }
 
     private fun showToast() {
-        //toastText = "The number of correct answers: " + totalCorrectAnswers
-        //Toast.makeText(this, toastText, Toast.LENGTH_LONG).show()
+        toastText = "The number of correct answers: " + totalCorrectAnswers
+        Toast.makeText(this, toastText, Toast.LENGTH_LONG).show()
     }
 }
